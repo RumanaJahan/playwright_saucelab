@@ -44,11 +44,12 @@ export async function getusername() {
   return usernamearray[randomIndex];
 }
 
-
- export async function getpassword() {
-  return 'secret_sauce';
-}
-
+//Get the password
+ export async function getpassword() 
+ {
+ return 'secret_sauce';
+ }
+ 
  export async function loginDesktop(page,desktopusername,desktoppassword ) 
  {
    // Enter the username
