@@ -14,7 +14,6 @@ test('Testcase01 - Desktop - Verify That User Can Login Successfully To Sauce De
   const desktoppassword = await commonfunction.getpassword();
   console.log("desktoppassword is = " + desktoppassword);
 
-
   //Login to Sauce Demo Website
   await commonfunction.loginDesktop(page,desktopusername,desktoppassword);
   });
