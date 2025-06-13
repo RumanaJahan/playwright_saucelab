@@ -47,7 +47,7 @@ export async function getusername() {
 //Get the password
  export async function getpassword() 
  {
- return 'secret_sauce';
+   return 'secret_sauce';
  }
  
  export async function loginDesktop(page,desktopusername,desktoppassword ) 
